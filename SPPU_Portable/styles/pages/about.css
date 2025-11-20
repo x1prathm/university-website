@@ -1,0 +1,159 @@
+body{
+    color: white;
+}
+main{
+    color: black;
+    margin-top: 160px;
+}
+.our-school-container{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.our-school-container h1{
+    color:rgb(29,29,54);
+    font-size: 60px;
+    font-weight: 600;
+}
+.our-school-container p{
+    margin-top: 10px;
+    color: rgb(29,29,54);
+    width: 800px;
+    text-align: center;
+}
+.grid-container-1{
+    background-color: rgb(29,29,54);
+    height:520px;
+    margin: 0 80px;
+    display: flex;
+}
+.grid-container-1 div{
+    flex: 1;
+}
+.grid-container-1 div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.grid-container-1 .info{
+    flex: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container-1 .info h1{
+    color: #5C5ADB;
+    font-size: 40px;
+    font-weight: 500;
+}
+.grid-container-1 .info p{
+    font-size: 18px;
+    font-weight: 200;
+    width: 500px;
+    line-height: 30px;
+    margin: 36px 0;
+    text-align: center;
+}
+
+.grid-container-2{
+    background-color: rgb(29,29,54);
+    height: 520px;
+    margin: 0 80px;
+    display: flex;
+}
+.grid-container-2 div{
+    flex: 1;
+}
+.grid-container-2 div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.grid-container-2 .info{
+    flex: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container-2 .info h1{
+    color: #5C5ADB;
+    font-size: 40px;
+    font-weight: 500;
+}
+.grid-container-2 .info ul{
+    margin: 36px 0;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.staff-directory{
+    margin: 80px 80px;
+    /* background-color: beige; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.staff-directory-title{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.staff-directory-title h1{
+    color: rgb(29,29,54);
+    font-size: 60px;
+    font-weight: 600;
+}
+.staff-directory-title p{
+    margin-top: 10px;
+    width: 450px;
+    color: rgb(29,29,54);
+    text-align: center;
+}
+
+.staff-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 220px);
+    grid-template-rows: repeat(2, auto);
+    gap: 50px;
+    margin: auto;
+    padding: 20px;
+}
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(29, 29, 54, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.name {
+    color: rgb(29,29,54);
+    font-weight: 600;
+    font-size: 16px;
+}
+.post {
+    color: rgba(29, 29, 54, 0.644);
+    font-size: 14px;
+    text-align: center;
+}
+.email {
+    color: #5C5ADB;
+    text-decoration: none;
+    font-size: 0.9em;
+}

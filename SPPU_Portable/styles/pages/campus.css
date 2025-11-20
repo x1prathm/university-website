@@ -1,0 +1,56 @@
+body{
+    color: white;
+}
+main{
+    margin-top: 160px;
+    color: black;
+}
+.banner{
+    height: 400px;
+    background-image: url(../../assets/SPPU-RPF-Gallery_0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-filter{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.386);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-filter h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+.services-grid{
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 50px;
+}
+.services-card{
+    flex: 1;
+    height: auto;
+    background-color: #F4F6F8;
+    padding: 35px;
+    box-sizing: border-box;
+    min-width: 400px;
+}
+.services-card h1{
+    color: rgb(29,29,54);
+    font-size: 30px;
+    font-weight: 600;
+}
+.services-card p{
+    color: rgb(29,29,54);
+    margin-top: 16px;
+    font-size: 14px;
+}
+.services-card img{
+    margin-top: 40px;
+    height: 100%;
+    width: 100%;
+}

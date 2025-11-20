@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    color: white;
+}
+main{
+    margin-top: 160px;
+    color: black;
+}
+.page-title{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page-title h1{
+    color:rgb(29,29,54);
+    font-size: 60px;
+    font-weight: 600;
+}
+.page-title p{
+    margin-top: 10px;
+    color: rgb(29,29,54);
+    width: 800px;
+    text-align: center;
+}
+
+.grid-container-1{
+    background-color: rgb(29,29,54);
+    height:1000px;
+    margin: 0 80px;
+    display: flex;
+}
+.grid-container-1 .info{
+    flex: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}
+.grid-container-1 .info div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.grid-container-1 .info-title h1{
+    color: #5C5ADB;
+    font-size: 40px;
+    font-weight: 500;
+}
+.grid-container-1 .info h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+.grid-container-1 .info p{
+    font-weight: 200;
+    width: 250px;
+    text-align: center;
+}
+.grid-container-1 .info a{
+    color: white;
+}
+.grid-container-1 .info .time{
+    color: #5C5ADB;
+}
+.grid-container-1-img{
+    flex: 1;
+}
+.grid-container-1-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.grid-container-2{
+    height: 900px;
+    margin: 0 80px;
+    display: flex;
+    margin-bottom: 80px;
+}
+.grid-container-2 .map{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.grid-container-2 .map iframe{
+    width: 80%;
+    height: 80%;
+}
+.grid-container-2 .info{
+    background-color: rgb(29,29,54);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.grid-container-2 .info h1{
+    color: #5C5ADB;
+    font-size: 40px;
+    font-weight: 500;
+    width: 400px;
+    text-align: center;
+}
+.contact-form-container {
+    color: black;
+    width: auto;
+    margin: 0 60px;
+}
+.contact-form-container input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 20px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+.contact-form-container input::placeholder,textarea::placeholder {
+    color: white;
+}
+.contact-form-container button {
+    background: rgb(29,29,54);
+    border: solid 1px #5C5ADB;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact-form-container button:hover {
+    background: #5C5ADB;
+}

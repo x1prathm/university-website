@@ -1,0 +1,123 @@
+nav{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.header{
+    color: rgb(29, 29, 54);
+    overflow: hidden;
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.search-bar{
+    border-bottom: 2px solid rgb(29, 29, 54);
+    height: 45px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar input{
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+}
+
+.search-bar input:focus{
+    outline: none;
+    border: none;
+}
+
+.header-middle img{
+    width: 350px;
+    cursor: pointer;
+}
+
+.header-right{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    width: 300px;
+}
+
+.header-right > a{
+    width: 45px;
+    height: 45px;
+}
+
+.header-right img{
+    width: 45px;
+}
+
+.login-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(29, 29, 54);
+    cursor: pointer;
+}
+
+.login-btn img{
+    width: 20px;
+}
+
+.login-box{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box label{
+    cursor: pointer;
+}
+
+.login-box:hover{
+    color: rgba(29, 29, 54, 0.308);
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(29, 29, 54);
+    height: 45px;
+}
+
+.navbar ul{
+    font-weight:200;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 900px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: #5C5ADB;
+}

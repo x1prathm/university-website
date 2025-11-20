@@ -1,0 +1,48 @@
+{
+  "classes": [
+    {
+      "id": "1",
+      "name": "B.Sc Computer Science",
+      "section": "A"
+    }
+  ],
+  "students": [
+    {
+      "rollid": "101",
+      "name": "Prathm",
+      "classid": "1"
+    }
+  ],
+  "marks": [
+    {
+      "rollid": "101",
+      "classid": "1",
+      "subject": "Compiler Construction",
+      "marks": 85
+    },
+    {
+      "rollid": "101",
+      "classid": "1",
+      "subject": "Operating Systems",
+      "marks": 78
+    },
+    {
+      "rollid": "101",
+      "classid": "1",
+      "subject": "Computer Networks",
+      "marks": 82
+    },
+    {
+      "rollid": "101",
+      "classid": "1",
+      "subject": "Web Technologies",
+      "marks": 88
+    },
+    {
+      "rollid": "101",
+      "classid": "1",
+      "subject": "Software Engineering",
+      "marks": 75
+    }
+  ]
+}
